@@ -60,7 +60,6 @@ export const cartMachine = Machine({
           actions: assign({
             shippingMethod: (context, event) => event.data,
           }),
-          // cond: (context, event) => console.log(context),
         },
       },
     },
@@ -76,7 +75,6 @@ export const cartMachine = Machine({
           actions: assign({
             paymentMethod: (context, event) => event.data,
           }),
-          // cond: (context, event) => console.log(context),
         },
       },
     },
